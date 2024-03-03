@@ -120,7 +120,7 @@ int main(int argc, char* argv[]) {
     }
     printf("[+] Found func entry: %llu\n", function);
 
-    if(!hook_remote_iat(atoi(argv[1]), rawData, sizeof(rawData), function)){
+    if(!hook_remote_iat(atoi(argv[1]), buf, sizeof(buf), function)){
         printf("[!] Unable to hook func!\n");
         return 1;
     }
