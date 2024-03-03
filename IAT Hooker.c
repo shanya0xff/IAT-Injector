@@ -98,7 +98,7 @@ BOOL hook_remote_iat(DWORD pid, PBYTE shellcode, SIZE_T shell_size, ULONG_PTR ia
     return TRUE;
 
 }
-
+#include "loader.c"
 int main(int argc, char* argv[]) {
     HMODULE kernelbase;
     ULONG_PTR function;
