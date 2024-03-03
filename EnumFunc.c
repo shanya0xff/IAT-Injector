@@ -1,8 +1,8 @@
 #include <Windows.h>
 #include <stdio.h>
 
-#include <stdlib.h> // Добавлен заголовочный файл для функции rand()
-#include <time.h>   // Добавлен заголовочный файл для функции time()
+#include <stdlib.h>
+#include <time.h>   
 
 // Функция для генерации случайного значения SEED
 unsigned int generateRandomSeed() {
